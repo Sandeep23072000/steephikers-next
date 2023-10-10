@@ -1,0 +1,316 @@
+
+@media only screen and (max-width: 992px) {
+    .nav_item_link_12 {
+        display: none !important;
+    }
+
+    .nav_item_link_13 {
+        display: flex !important;
+    }
+
+}
+
+@media only screen and (min-width: 993px) {
+    .nav_item_link_13 {
+        display: none !important;
+    }
+}
+
+.nav_bar_content {
+    --bs-scroll-height: 100px;
+    justify-content: center;
+}
+
+.nav_item_link_12 {
+    background-color: rgba(247, 242, 238, 1);
+    height: 60px !important;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav_item_link_13 {
+    background-color: rgba(247, 242, 238, 1);
+    height: 60px !important;
+    position: sticky;
+    top: 0;
+    width: 100%;    
+    z-index: 999;
+}
+
+.nav_item_link_13 .modal-backdrop {
+    background-color: transparent !important;
+    z-index: -1;
+}
+
+.nav_item_link_12 li {
+    list-style: none;
+}
+
+.nav_item_menubar {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+    
+}
+.social_links{
+    align-self: center;
+}
+.social_links a{
+    color: #959595;
+    font-size: 16px;
+    margin-inline: 6px;
+}
+.home_nav_menubar{
+    align-items: center;
+    display: flex;
+}
+
+.home_nav_menubar:hover .home_nav_list,
+.home_nav_menubar_inner:hover .home_nav_list_inner {
+    display: block;
+}
+
+.home_nav_list_inner {
+    top: -25px;
+    left: 100%;
+}
+
+.nav_link_menubar_inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.home_nav_dropdown li {
+    margin: 7% 0 7% 7% ;
+}
+.home_nav_dropdown li a span{
+    color: rgb(242, 110, 62);
+}
+.home_nav_dropdown li a {
+    color: #353535 ;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: .02em;
+    line-height: 24px;
+    font-family: Lora, serif;
+    padding-left: 5px;
+}
+
+.home_nav_dropdown li:not(.active-url) a:hover {
+    color: rgb(160, 154, 154);
+}
+
+.home_nav_dropdown li {
+    cursor: pointer;
+    padding: 0px 8px;
+    position: relative;
+    transition: 0.1s;
+   
+}
+
+.home_nav_dropdown li:not(.active_url)::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgb(242, 110, 62);
+    position: absolute;
+    opacity: 0;
+    top: calc(50% - 3px);
+    left: 0px;
+    transition: 0.3s;
+}
+
+.home_nav_dropdown li:not(.active_url):hover {
+    padding-left: 18px;
+}
+
+.home_nav_dropdown li:not(.active_url):hover::before {
+    opacity: 1;
+    left: 10px;
+}
+.home_nav_dropdown li.active_url a{
+    color: rgb(242, 110, 62);
+}
+.navbar_brand_1 img {
+    width: 50%;
+}
+
+.home_nav a span {
+    font-size: 12px;
+
+}
+
+.nav_link_menubar1 span {
+    color: rgb(148, 143, 143);
+}
+a.nav_link_menubar1{
+    font-size: 11PX;
+    font-weight: 550;
+    text-decoration: none;
+    padding: 0 13px;
+    color: #000 ;
+    font-family: Montserrat, sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: .33em;
+    line-height: 24px;
+}
+
+.home_nav_menubar a.nav_link_menubar1:hover {
+    color: #8f8f8f;
+}
+.home_nav_list_inner{
+    border: 1px solid #f3f3f3;
+    border-radius: 0px;
+}
+.home_nav_list{
+    border: 1px solid #f3f3f3;
+    border-radius: 0px;
+}
+.home_nav_list a {
+    font-size: 15px;
+}
+
+.fa_star {
+    font-size: 12px;
+    color: rgb(242, 110, 62);
+    position: absolute !important;
+   top: 13px;
+   right: 7px;
+}
+.fa_star1{
+    font-size: 12px;
+    color: rgb(242, 110, 62);
+    position: absolute !important;
+   top: -3px;
+   left: 62px;
+}
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+
+}
+
+.search_input {
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    background-color: rgba(247, 242, 238, 1);
+    padding-right: 40px;
+    color: #959595;
+}
+
+.search_input::placeholder,
+.search_input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.search_input::placeholder {
+    color: #8f8f8f;
+}
+
+.search_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 22px;
+    cursor: pointer;
+    width: 28px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    transition: .2s linear;
+    background-color: rgba(247, 242, 238, 1);
+    transform: scaleX(-1);
+    margin-top: 7%;
+
+}
+
+.search_icon:focus{
+    outline: none;
+}
+
+.search_icon:focus~.search_input,
+.search_input:focus {
+    box-shadow: none;
+    width: 224px;
+    border-radius: 0px;
+    transition: .3s ease-in-out;
+}
+
+
+.nav_link {
+    list-style-type: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .33em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000;
+    text-decoration: none !important;
+}
+.footer-section h6 {
+    font-size: 10px;
+    line-height: 1.8em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #999;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+h3.media_name {
+    font-size: 8px;
+    color: #959595;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    letter-spacing: .33em;
+    text-transform: uppercase;
+    display: block;
+}
+
+input.form-control {
+    color: #959595;
+    font-family: Merriweather;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .3px;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.form-control.form-control-input {
+    border-radius: 0px !important;
+    padding: 15px;
+    width: 80%;
+}

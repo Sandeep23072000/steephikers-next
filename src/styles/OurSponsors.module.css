@@ -1,0 +1,15 @@
+.our_sponsors_head{
+    display: flex;
+    justify-content: center;
+}
+
+.our_sponsors_head h3{
+    font-size: 24px;
+    line-height: 1.33em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+

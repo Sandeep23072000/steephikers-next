@@ -1,0 +1,88 @@
+.backpacktraveler_heading span {
+    color: #f7775e
+}
+
+.backpacktraveler_heading {
+    text-align: center;
+}
+
+.backpacktraveler_heading h2 {
+    font-size: 33px;
+    line-height: 1.21em;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: .2em;
+    font-family: Montserrat, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    .backpacktraveler_heading h2 {
+        font-size: 20px;
+    }
+}
+
+.backpacktraveler_heading p {
+    color: #838383;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Lora, serif;
+    font-weight: 400;
+}
+
+.backpacktraveler_heading p span {
+    color: #f7775e;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.img_container a::after {
+    content: '';
+    display: block;
+    width: calc(100% - var(--bs-gutter-x));
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: calc(var(--bs-gutter-x)/ 2);
+    background-color: rgba(0, 0, 0, .3);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+
+}
+
+.img_content {
+    top: 0;
+    left: calc(var(--bs-gutter-x)/ 2);
+    right: calc(var(--bs-gutter-x)/ 2);
+    color: white;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    text-align: center;
+
+}
+
+.img_content p {
+
+    top: 20px;
+    left: 35px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-bottom: 30%;
+
+}
+
+.img_content span {
+    font-family: Lora, serif;
+    font-size: 23px;
+    line-height: 1.69em;
+
+}
+
+.img_container:hover .img_content,
+.img_container:hover a::after {
+    opacity: 1;
+}

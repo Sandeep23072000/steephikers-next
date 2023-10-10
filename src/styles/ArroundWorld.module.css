@@ -1,0 +1,109 @@
+.travel_tip_col1_para1 h2 {
+    font-size: 33px;
+    line-height: 1.21em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    padding: 6rem 1rem 0.5rem 0rem;
+}
+
+.travel_tip_col1_para1 p {
+    font-family: Lora, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+    padding-top: 1.8rem;
+}
+
+.travel_tip_col1_para1 span {
+    color: #f7775e;
+    line-height: 34px;
+}
+
+.travel_tip_col1_para1 u {
+    text-decoration: underline;
+    font-family: Lora, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+}
+
+.travel_tip_col2 {
+    position: relative;
+    height: 460px;
+}
+
+.travel_tip_col2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.travel_tip_col2_img1 {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.travel_tip_col2_img2 {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 5px solid #fff;
+}
+
+.travel_tip_col2_img3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.travel_tip_col2_para {
+    position: absolute;
+    width: 50%;
+    bottom: 10%;
+    right: -10px;
+}
+
+.travel_tip_col2_para h3 {
+    font-family: 'EpicRide';
+    text-align: inherit;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+@media screen and (max-width: 575px) {
+    .travel_tip_col2_img1 {
+        height: 70%;
+        width: inherit;
+    }
+
+    .travel_tip_col2_img2 {
+        height: 40%;
+        width: 60%;
+        left: 20%;
+    }
+
+    .travel_tip_col2_img3 {
+        top: 75%;
+        left: 5%;
+    }
+
+    .travel_tip_col2_para {
+        width: 60%;
+        bottom: -10%;
+        left: 20%;
+    }
+}

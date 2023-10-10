@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: "EpicRide";
+    src: local("EpicRide"),
+        url("./fonts/Epic_Ride.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    min-width: 13rem;
+    margin: 0;
+}
+.accordion-collapse{
+
+    padding-left: 25px !important ;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    font-family: Lora,serif;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #565050;
+    cursor: pointer;
+    list-style-position: inside;
+    
+  }
+  .accordion-collapse span{
+   color: rgb(242, 110, 62);
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-collapse li {
+    padding: 5px;
+}
+
+button.accordion-button {
+    font-size: 15px;
+    line-height: 35px;
+    color: #565050;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: .23em;
+   
+}
+
+button.accordion-button span{
+    color: rgb(242, 110, 62);
+}
+.accordion-button:not(.collapsed) {
+    color: none !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.0em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+input.form-control{
+    color: #959595;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+

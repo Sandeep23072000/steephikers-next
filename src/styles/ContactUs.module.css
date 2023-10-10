@@ -1,0 +1,198 @@
+.contact_us_section_banner img {
+    width: 100%;
+    position: relative;
+    height: auto;
+
+}
+
+.empty_span_inner_contactus {
+    height: 90px;
+}
+
+.contact_us_section_banner p {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    font-size: 40px;
+    line-height: 1.25em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+
+@media  (min-width: 900px) and (max-width: 1400px) {
+    .contact_us_section_bannerr p {
+        top: 30%;
+        left: 38%;
+    }
+}
+
+@media  (min-width: 600px) and (max-width: 900px) {
+    .contact_us_section_banner p {
+        top: 25%;
+        left: 30%;
+        font-size: 30px;
+    }
+}
+
+@media only Screen and (max-width: 600px) {
+    .contact_us_section_banner p {
+        top: 20%;
+        left: 35%;
+        font-size: 20px;
+    }
+}
+.contact_us_heading{
+    margin-left: 5%;
+}
+.contact_us_heading h3{
+    font-size: 24px;
+    line-height: 1.33em;
+    font-weight: 400;
+
+    margin: 20px 0;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+    margin-bottom: 0;
+}
+.contact_us_paragraph{
+    margin-left: 5%;
+}
+.contact_us_paragraph p{
+    font-family: Lora,serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+.contact_us_paragraph span{
+    color: #f7775e;
+}
+.contact_name{
+    color: #959595;
+    font-size: 12px;
+    line-height: 28px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: capitalize;   
+    margin-bottom: 18px;
+}
+.contact_us_form{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.contact_us_form input{
+    width: 100%;
+    padding: 10px ;
+    border: 1px solid #c6c6c6 ;
+}
+.contact_us_form textarea{
+    width: 100%;
+   height: 170px;
+   border-color: #c6c6c6;
+}
+
+.contact_submit{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 9px 41px 10px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;    
+}
+
+.travel_guides{
+    text-align: center;
+}
+.travel_guides h3{
+    font-size: 24px;
+    line-height: 1.33em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+.travel_guides p{
+    color: #838383;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-top: 13px;
+    font-family: Lora,serif;
+    padding-bottom: 2%;
+}
+.travel_guides_img{
+    position: relative;
+}
+.travel_guides_img img{
+    height: auto;
+    max-width: 100%;
+    
+}
+.travel_guides_img_price{
+    position: absolute;
+    top: 60%;
+    color: #000;
+    display: block;
+    line-height: 1em;
+    font-style: italic;
+    background-color: #fff;
+    padding: 10px 9px 11px 12px;
+    left: -11px;
+    opacity: 0;
+    transition: all .2s ease;
+    z-index: 150;
+}
+
+.travel_guides_img_price:hover{
+    opacity: 1;
+}
+.travel_guides_img_price .span1{
+    margin-left: 5px;
+    font-size: 15px;
+    color: #f7775e;
+    font-style: italic;
+}
+
+.travel_guides_sales{
+    position: absolute;
+    display: block;
+    top: 0;
+    width: auto;
+    margin: 0;
+    color: #000;
+    font-size: 44px;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-align: center;
+    z-index: 100;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    font-family: EpicRide,serif;
+    left: -22px;
+}

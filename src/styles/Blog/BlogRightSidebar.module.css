@@ -1,0 +1,324 @@
+.standard_about_section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.standard_about_section a{
+    font-family: EpicRide,serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 44px;
+    line-height: 1em;
+    color: inherit;
+    cursor: pointer;
+}
+.standard_about_section h3{
+    margin: 21px 0 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+    font-size: 24px;
+    line-height: 1.33em;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+.standard_about_section span{
+    color: #959595;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: .33em;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.standard_img img{
+    height: auto;
+    max-width: 100%;
+}
+.standard_footer_section{
+    margin: 19px 0 0;
+}
+.standard_footer_paragraph p{
+    font-family: Lora,serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+    padding: 0 12%;
+    text-align: center;
+}
+.standard_footer_button{
+    margin-top: 35px;
+    text-align: center;
+}
+.standard_footer_button span{
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000;
+    letter-spacing: .33em;
+    font-weight: 500;
+}
+
+.standard_footer_about{
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 14px;
+    padding-top: 19px;
+    border-top: 1px solid #f2f2f2;
+    margin-top: 43px;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+.standard_footer_about1 a{
+    color: #959595;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .33em;
+    text-transform: uppercase;
+
+}
+@media screen and (max-width: 768px){
+    .standard_footer_about_date{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .standard_footer_about1{
+        text-align: center;
+    }
+}
+.standard_footer_about_date span{
+    font-style: italic;
+    font-size: 15px;
+    color: #959595;
+   display: flex;
+   justify-content: end;
+
+    
+}
+
+.standard_right_footer{
+    padding: 60px 35px;
+    border: 2px dashed #f2f2f2;
+    text-align: center;
+}
+.standard_right_footer_about span{
+    font-size: 36px;
+    color: #f7775e;
+    /* content: "\7b"; */
+}
+.standard_right_footer_about h5{
+    margin: 21px 0 11px;
+    font-size: 44px;
+    font-family: EpicRide,serif;
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: 33px;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #000;
+}
+.standard_right_footer_about p{
+    font-family: Montserrat,sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: .33em;
+    color: #959595;
+    margin-top: 50px;
+} 
+.standard_right_img{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.standard_right_img img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .standard_right_img img {
+        max-width: 50%;
+        height: auto;
+        
+    }
+}
+
+.footer_section_title_start {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 5%;
+    
+
+}
+
+.footer_section_title  {
+    content: '';
+    height: 1px;
+    width: 90%;
+    background-color: #f2f2f2;
+    top: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.footer_section_title_start h6 {
+    font-size: 10px;
+    line-height: 1.8em;
+    font-weight: 600;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 3px;
+    display: inline-block;
+    width: auto;
+    margin: 0 0 3px;
+    background-color: #fff;
+    padding: 0 12px;
+    z-index: 90;
+    position: relative;
+}
+.standard_right_img2{
+    position: relative;
+}
+
+.standard_right_img2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.fa_brands{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    /* width: calc(100% - var(--bs-gutter-x)) ; */
+    width: 90%;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    font-size: 30px;
+    opacity: 0;
+    z-index: 1;
+}
+.standard_right_img2:hover .fa_brands{
+    opacity: 1;
+}
+
+.social_media_name {
+    text-decoration: none;
+}
+
+.fa_brands1 {
+    color: #000000;
+    font-size: 25px;
+}
+
+.media_name {
+    font-size: 8px;
+    color: #959595;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    letter-spacing: .33em;
+    text-transform: uppercase;
+    display: block;
+}
+.media_name:hover{
+    color: #000;
+}
+.standard_right_img4 img{
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 681px){
+    .standard_right_img4 img{
+        max-width: 87%;
+        height: auto;
+    }
+    
+}
+.standard_right_img2{
+    margin: 0 0 0px 0;
+}
+.standard_right_img2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.standard_right_img_about4 h5{
+    font-size: 12px;
+    line-height: 1.67em;
+    padding-left: 11px;
+    /* margin: 20px 0; */
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+    transition: color .2s
+}
+
+.standard_right_img_about4 h5:hover{
+    color: #959595;
+}
+
+.form_control_input {
+    border-radius: 0px !important;
+  
+}
+
+.btn_text_center {
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.categories_items p{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 9px 0;
+    font-size: 10px;
+    line-height: 1.8em;
+    font-weight: 500;
+    color: #959595;
+    text-transform: uppercase;
+    letter-spacing: .33em;
+    font-family: Montserrat,sans-serif;
+    cursor: pointer;
+    transition: color .2s
+}
+.categories_items p:hover{
+    color: #000;
+}
+.footer_section_title_start ul{
+    list-style-type: square;
+    margin-top: 8%;
+}
+.footer_section_title_start ul li{
+    color: #f7775e;
+}
+
+
+
+

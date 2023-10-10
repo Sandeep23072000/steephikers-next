@@ -1,0 +1,101 @@
+
+
+
+.travel_tip_main_col1 {
+    position: relative;
+    background: url("../../public/Assets/travel_tip_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.travel_tip_main_col1_img1 {
+    position: absolute;
+    width: 35%;
+    top: 20%;
+    right: 35%;
+    z-index: 1;
+}
+
+.travel_tip_main_col1_img2 {
+    position: absolute;
+    width: 35%;
+    top: 15%;
+    right: 8%;
+}
+
+.travel_tip_main_col2 h2 {
+    font-family: Montserrat;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    white-space: normal;
+    max-width: 591px;
+    line-height: 43px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 33px;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    padding: 2rem 0rem;
+}
+
+.travel_tip_main_col2 p {
+    font-family: Lora;
+    color: #8c8c8c;
+    text-decoration: none;
+    white-space: normal;
+    max-width: 600px;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+
+.travel_tip_main_col2 .span_1 {
+    color: #f7775e;
+}
+
+.travel_tip_main_col2 u {
+    color: #8c8c8c;
+}
+
+.travel_tip_main_input {
+    border: none;
+    padding: 13px 10px 13px 10px;
+    width: 100%;
+}
+
+.travel_tip_main_input:focus {
+    border: none;
+    outline: none;
+}
+
+.travel_tip_main_input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: calc(50px - (9px * 2) - 2px);
+    color: #959595;
+    background-color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-style: italic;
+}
+
+.travel_tip_main_button{
+    border: none;
+    width: 100%;
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #212121;
+    padding: 15px 0px 15px 0px;
+}
